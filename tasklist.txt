@@ -1,0 +1,103 @@
+
+> Task :tasks
+
+------------------------------------------------------------
+Tasks runnable from root project 'paper'
+------------------------------------------------------------
+
+Build tasks
+-----------
+assemble - Assembles the outputs of this project.
+build - Assembles and tests this project.
+buildDependents - Assembles and tests this project and all projects that depend on it.
+buildNeeded - Assembles and tests this project and all projects it depends on.
+classes - Assembles main classes.
+clean - Deletes the build directory.
+jar - Assembles a jar archive containing the main classes.
+javadocJar - Assembles a jar archive containing the main javadoc.
+log4jPluginsClasses - Assembles log4j plugins classes.
+sourcesJar - Assembles a jar archive containing the main sources.
+testClasses - Assembles test classes.
+
+Build Setup tasks
+-----------------
+init - Initializes a new Gradle build.
+wrapper - Generates Gradle wrapper files.
+
+Documentation tasks
+-------------------
+javadoc - Generates Javadoc API documentation for the main source code.
+
+Help tasks
+----------
+buildEnvironment - Displays all buildscript dependencies declared in root project 'paper'.
+dependencies - Displays all dependencies declared in root project 'paper'.
+dependencyInsight - Displays the insight into a specific dependency in root project 'paper'.
+help - Displays a help message.
+javaToolchains - Displays the detected java toolchains.
+kotlinDslAccessorsReport - Prints the Kotlin code for accessing the currently available project extensions and conventions.
+outgoingVariants - Displays the outgoing variants of root project 'paper'.
+projects - Displays the sub-projects of root project 'paper'.
+properties - Displays the properties of root project 'paper'.
+resolvableConfigurations - Displays the configurations that can be resolved in root project 'paper'.
+tasks - Displays the tasks runnable from root project 'paper' (some of the displayed tasks may belong to subprojects).
+
+IDE tasks
+---------
+cleanIdea - Cleans IDEA project files (IML, IPR)
+idea - Generates IDEA project files (IML, IPR, IWS)
+
+Paper tasks
+-----------
+applyApiPatches - Setup the Paper-API project
+applyPatches - Set up the Paper development environment
+applyServerPatches - Setup the Paper-Server project
+cleanCache - Delete the project setup cache and task outputs.
+rebuildApiPatches - Rebuilds patches to api
+rebuildPatches - Rebuilds patches to api and server
+rebuildServerPatches - Rebuilds patches to server
+runDev - Spin up a non-relocated Mojang-mapped test server
+runReobf - Spin up a test server from the reobfJar output jar
+runShadow - Spin up a test server from the shadowJar archiveFile
+
+Paperweight tasks
+-----------------
+createMojmapBundlerJar - Build a runnable bundler jar
+createMojmapPaperclipJar - Build a runnable paperclip jar
+createReobfBundlerJar - Build a runnable bundler jar
+createReobfPaperclipJar - Build a runnable paperclip jar
+generateDevelopmentBundle
+remapPatches - NOT FOR TYPICAL USE: Attempt to remap Paper's patches from Spigot mappings to Mojang mappings.
+reobfJar - Re-obfuscate the built jar to obf mappings
+
+Publishing tasks
+----------------
+generateMetadataFileForMavenPublication - Generates the Gradle metadata file for publication 'maven'.
+generatePomFileForMavenPublication - Generates the Maven POM file for publication 'maven'.
+publish - Publishes all publications produced by this project.
+publishAllPublicationsToPaperSnapshotsRepository - Publishes all Maven publications produced by this project to the paperSnapshots repository.
+publishMavenPublicationToMavenLocal - Publishes Maven publication 'maven' to the local Maven repository.
+publishMavenPublicationToPaperSnapshotsRepository - Publishes Maven publication 'maven' to Maven repository 'paperSnapshots'.
+publishToMavenLocal - Publishes all Maven publications produced by this project to the local Maven cache.
+
+Shadow tasks
+------------
+knows - Do you know who knows?
+shadowJar - Create a combined JAR of project and runtime dependencies
+
+Verification tasks
+------------------
+check - Runs all checks.
+test - Runs the test suite.
+
+Rules
+-----
+Pattern: clean<TaskName>: Cleans the output files of a task.
+Pattern: build<ConfigurationName>: Assembles the artifacts of a configuration.
+
+To see all tasks and more detail, run gradlew tasks --all
+
+To see more detail about a task, run gradlew help --task <task>
+
+BUILD SUCCESSFUL in 605ms
+1 actionable task: 1 executed
