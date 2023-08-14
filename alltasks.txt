@@ -1,0 +1,303 @@
+
+> Task :tasks
+
+------------------------------------------------------------
+Tasks runnable from root project 'paper'
+------------------------------------------------------------
+
+Build tasks
+-----------
+assemble - Assembles the outputs of this project.
+paper-api:assemble - Assembles the outputs of this project.
+paper-mojangapi:assemble - Assembles the outputs of this project.
+paper-server:assemble - Assembles the outputs of this project.
+test-plugin:assemble - Assembles the outputs of this project.
+build - Assembles and tests this project.
+paper-api:build - Assembles and tests this project.
+paper-mojangapi:build - Assembles and tests this project.
+paper-server:build - Assembles and tests this project.
+test-plugin:build - Assembles and tests this project.
+buildDependents - Assembles and tests this project and all projects that depend on it.
+paper-api:buildDependents - Assembles and tests this project and all projects that depend on it.
+paper-mojangapi:buildDependents - Assembles and tests this project and all projects that depend on it.
+paper-server:buildDependents - Assembles and tests this project and all projects that depend on it.
+test-plugin:buildDependents - Assembles and tests this project and all projects that depend on it.
+buildNeeded - Assembles and tests this project and all projects it depends on.
+paper-api:buildNeeded - Assembles and tests this project and all projects it depends on.
+paper-mojangapi:buildNeeded - Assembles and tests this project and all projects it depends on.
+paper-server:buildNeeded - Assembles and tests this project and all projects it depends on.
+test-plugin:buildNeeded - Assembles and tests this project and all projects it depends on.
+classes - Assembles main classes.
+paper-api:classes - Assembles main classes.
+paper-mojangapi:classes - Assembles main classes.
+paper-server:classes - Assembles main classes.
+test-plugin:classes - Assembles main classes.
+clean - Deletes the build directory.
+paper-api:clean - Deletes the build directory.
+paper-mojangapi:clean - Deletes the build directory.
+paper-server:clean - Deletes the build directory.
+test-plugin:clean - Deletes the build directory.
+jar - Assembles a jar archive containing the main classes.
+paper-api:jar - Assembles a jar archive containing the main classes.
+paper-mojangapi:jar - Assembles a jar archive containing the main classes.
+paper-server:jar - Assembles a jar archive containing the main classes.
+test-plugin:jar - Assembles a jar archive containing the main classes.
+paper-api:javadocJar - Assembles a jar archive containing the main javadoc.
+paper-mojangapi:javadocJar - Assembles a jar archive containing the main javadoc.
+paper-server:log4jPluginsClasses - Assembles log4j plugins classes.
+paper-api:sourcesJar - Assembles a jar archive containing the main sources.
+paper-mojangapi:sourcesJar - Assembles a jar archive containing the main sources.
+testClasses - Assembles test classes.
+paper-api:testClasses - Assembles test classes.
+paper-mojangapi:testClasses - Assembles test classes.
+paper-server:testClasses - Assembles test classes.
+test-plugin:testClasses - Assembles test classes.
+
+Build Setup tasks
+-----------------
+init - Initializes a new Gradle build.
+wrapper - Generates Gradle wrapper files.
+
+Documentation tasks
+-------------------
+javadoc - Generates Javadoc API documentation for the main source code.
+paper-api:javadoc - Generates Javadoc API documentation for the main source code.
+paper-mojangapi:javadoc - Generates Javadoc API documentation for the main source code.
+paper-server:javadoc - Generates Javadoc API documentation for the main source code.
+test-plugin:javadoc - Generates Javadoc API documentation for the main source code.
+
+Help tasks
+----------
+buildEnvironment - Displays all buildscript dependencies declared in root project 'paper'.
+paper-api:buildEnvironment - Displays all buildscript dependencies declared in project ':paper-api'.
+paper-mojangapi:buildEnvironment - Displays all buildscript dependencies declared in project ':paper-mojangapi'.
+paper-server:buildEnvironment - Displays all buildscript dependencies declared in project ':paper-server'.
+test-plugin:buildEnvironment - Displays all buildscript dependencies declared in project ':test-plugin'.
+dependencies - Displays all dependencies declared in root project 'paper'.
+paper-api:dependencies - Displays all dependencies declared in project ':paper-api'.
+paper-mojangapi:dependencies - Displays all dependencies declared in project ':paper-mojangapi'.
+paper-server:dependencies - Displays all dependencies declared in project ':paper-server'.
+test-plugin:dependencies - Displays all dependencies declared in project ':test-plugin'.
+dependencyInsight - Displays the insight into a specific dependency in root project 'paper'.
+paper-api:dependencyInsight - Displays the insight into a specific dependency in project ':paper-api'.
+paper-mojangapi:dependencyInsight - Displays the insight into a specific dependency in project ':paper-mojangapi'.
+paper-server:dependencyInsight - Displays the insight into a specific dependency in project ':paper-server'.
+test-plugin:dependencyInsight - Displays the insight into a specific dependency in project ':test-plugin'.
+help - Displays a help message.
+paper-api:help - Displays a help message.
+paper-mojangapi:help - Displays a help message.
+paper-server:help - Displays a help message.
+test-plugin:help - Displays a help message.
+javaToolchains - Displays the detected java toolchains.
+paper-api:javaToolchains - Displays the detected java toolchains.
+paper-mojangapi:javaToolchains - Displays the detected java toolchains.
+paper-server:javaToolchains - Displays the detected java toolchains.
+test-plugin:javaToolchains - Displays the detected java toolchains.
+kotlinDslAccessorsReport - Prints the Kotlin code for accessing the currently available project extensions and conventions.
+paper-api:kotlinDslAccessorsReport - Prints the Kotlin code for accessing the currently available project extensions and conventions.
+paper-mojangapi:kotlinDslAccessorsReport - Prints the Kotlin code for accessing the currently available project extensions and conventions.
+paper-server:kotlinDslAccessorsReport - Prints the Kotlin code for accessing the currently available project extensions and conventions.
+test-plugin:kotlinDslAccessorsReport - Prints the Kotlin code for accessing the currently available project extensions and conventions.
+outgoingVariants - Displays the outgoing variants of root project 'paper'.
+paper-api:outgoingVariants - Displays the outgoing variants of project ':paper-api'.
+paper-mojangapi:outgoingVariants - Displays the outgoing variants of project ':paper-mojangapi'.
+paper-server:outgoingVariants - Displays the outgoing variants of project ':paper-server'.
+test-plugin:outgoingVariants - Displays the outgoing variants of project ':test-plugin'.
+projects - Displays the sub-projects of root project 'paper'.
+paper-api:projects - Displays the sub-projects of project ':paper-api'.
+paper-mojangapi:projects - Displays the sub-projects of project ':paper-mojangapi'.
+paper-server:projects - Displays the sub-projects of project ':paper-server'.
+test-plugin:projects - Displays the sub-projects of project ':test-plugin'.
+properties - Displays the properties of root project 'paper'.
+paper-api:properties - Displays the properties of project ':paper-api'.
+paper-mojangapi:properties - Displays the properties of project ':paper-mojangapi'.
+paper-server:properties - Displays the properties of project ':paper-server'.
+test-plugin:properties - Displays the properties of project ':test-plugin'.
+resolvableConfigurations - Displays the configurations that can be resolved in root project 'paper'.
+paper-api:resolvableConfigurations - Displays the configurations that can be resolved in project ':paper-api'.
+paper-mojangapi:resolvableConfigurations - Displays the configurations that can be resolved in project ':paper-mojangapi'.
+paper-server:resolvableConfigurations - Displays the configurations that can be resolved in project ':paper-server'.
+test-plugin:resolvableConfigurations - Displays the configurations that can be resolved in project ':test-plugin'.
+tasks - Displays the tasks runnable from root project 'paper' (some of the displayed tasks may belong to subprojects).
+paper-api:tasks - Displays the tasks runnable from project ':paper-api'.
+paper-mojangapi:tasks - Displays the tasks runnable from project ':paper-mojangapi'.
+paper-server:tasks - Displays the tasks runnable from project ':paper-server'.
+test-plugin:tasks - Displays the tasks runnable from project ':test-plugin'.
+
+IDE tasks
+---------
+paper-server:cleanIdea - Cleans IDEA project files (IML, IPR)
+paper-server:idea - Generates IDEA project files (IML, IPR, IWS)
+
+Paper tasks
+-----------
+applyApiPatches - Setup the Paper-API project
+applyPatches - Set up the Paper development environment
+applyServerPatches - Setup the Paper-Server project
+cleanCache - Delete the project setup cache and task outputs.
+rebuildApiPatches - Rebuilds patches to api
+rebuildPatches - Rebuilds patches to api and server
+rebuildServerPatches - Rebuilds patches to server
+paper-server:runDev - Spin up a non-relocated Mojang-mapped test server
+paper-server:runReobf - Spin up a test server from the reobfJar output jar
+paper-server:runShadow - Spin up a test server from the shadowJar archiveFile
+
+Paperweight tasks
+-----------------
+createMojmapBundlerJar - Build a runnable bundler jar
+createMojmapPaperclipJar - Build a runnable paperclip jar
+createReobfBundlerJar - Build a runnable bundler jar
+createReobfPaperclipJar - Build a runnable paperclip jar
+generateDevelopmentBundle
+remapPatches - NOT FOR TYPICAL USE: Attempt to remap Paper's patches from Spigot mappings to Mojang mappings.
+paper-server:reobfJar - Re-obfuscate the built jar to obf mappings
+
+Publishing tasks
+----------------
+paper-api:generateMetadataFileForMavenPublication - Generates the Gradle metadata file for publication 'maven'.
+paper-mojangapi:generateMetadataFileForMavenPublication - Generates the Gradle metadata file for publication 'maven'.
+paper-server:generateMetadataFileForMavenPublication - Generates the Gradle metadata file for publication 'maven'.
+paper-api:generatePomFileForMavenPublication - Generates the Maven POM file for publication 'maven'.
+paper-mojangapi:generatePomFileForMavenPublication - Generates the Maven POM file for publication 'maven'.
+paper-server:generatePomFileForMavenPublication - Generates the Maven POM file for publication 'maven'.
+publish - Publishes all publications produced by this project.
+paper-api:publish - Publishes all publications produced by this project.
+paper-mojangapi:publish - Publishes all publications produced by this project.
+paper-server:publish - Publishes all publications produced by this project.
+test-plugin:publish - Publishes all publications produced by this project.
+publishAllPublicationsToPaperSnapshotsRepository - Publishes all Maven publications produced by this project to the paperSnapshots repository.
+paper-api:publishAllPublicationsToPaperSnapshotsRepository - Publishes all Maven publications produced by this project to the paperSnapshots repository.
+paper-mojangapi:publishAllPublicationsToPaperSnapshotsRepository - Publishes all Maven publications produced by this project to the paperSnapshots repository.
+paper-server:publishAllPublicationsToPaperSnapshotsRepository - Publishes all Maven publications produced by this project to the paperSnapshots repository.
+test-plugin:publishAllPublicationsToPaperSnapshotsRepository - Publishes all Maven publications produced by this project to the paperSnapshots repository.
+paper-api:publishMavenPublicationToMavenLocal - Publishes Maven publication 'maven' to the local Maven repository.
+paper-mojangapi:publishMavenPublicationToMavenLocal - Publishes Maven publication 'maven' to the local Maven repository.
+paper-server:publishMavenPublicationToMavenLocal - Publishes Maven publication 'maven' to the local Maven repository.
+paper-api:publishMavenPublicationToPaperSnapshotsRepository - Publishes Maven publication 'maven' to Maven repository 'paperSnapshots'.
+paper-mojangapi:publishMavenPublicationToPaperSnapshotsRepository - Publishes Maven publication 'maven' to Maven repository 'paperSnapshots'.
+paper-server:publishMavenPublicationToPaperSnapshotsRepository - Publishes Maven publication 'maven' to Maven repository 'paperSnapshots'.
+publishToMavenLocal - Publishes all Maven publications produced by this project to the local Maven cache.
+paper-api:publishToMavenLocal - Publishes all Maven publications produced by this project to the local Maven cache.
+paper-mojangapi:publishToMavenLocal - Publishes all Maven publications produced by this project to the local Maven cache.
+paper-server:publishToMavenLocal - Publishes all Maven publications produced by this project to the local Maven cache.
+test-plugin:publishToMavenLocal - Publishes all Maven publications produced by this project to the local Maven cache.
+
+Shadow tasks
+------------
+paper-server:knows - Do you know who knows?
+paper-server:shadowJar - Create a combined JAR of project and runtime dependencies
+
+Verification tasks
+------------------
+check - Runs all checks.
+paper-api:check - Runs all checks.
+paper-mojangapi:check - Runs all checks.
+paper-server:check - Runs all checks.
+test-plugin:check - Runs all checks.
+test - Runs the test suite.
+paper-api:test - Runs the test suite.
+paper-mojangapi:test - Runs the test suite.
+paper-server:test - Runs the test suite.
+test-plugin:test - Runs the test suite.
+
+Other tasks
+-----------
+addAdditionalSpigotMappings
+applyMergedAt
+paper-server:cleanIdeaModule
+cleanupMappings
+cleanupSourceMappings
+collectAtsFromPatches
+compileJava - Compiles main Java source.
+paper-api:compileJava - Compiles main Java source.
+paper-mojangapi:compileJava - Compiles main Java source.
+paper-server:compileJava - Compiles main Java source.
+test-plugin:compileJava - Compiles main Java source.
+paper-server:compileLog4jPluginsJava - Compiles log4j plugins Java source.
+compileTestJava - Compiles test Java source.
+paper-api:compileTestJava - Compiles test Java source.
+paper-mojangapi:compileTestJava - Compiles test Java source.
+paper-server:compileTestJava - Compiles test Java source.
+test-plugin:compileTestJava - Compiles test Java source.
+components - Displays the components produced by root project 'paper'. [deprecated]
+paper-api:components - Displays the components produced by project ':paper-api'. [deprecated]
+paper-mojangapi:components - Displays the components produced by project ':paper-mojangapi'. [deprecated]
+paper-server:components - Displays the components produced by project ':paper-server'. [deprecated]
+test-plugin:components - Displays the components produced by project ':test-plugin'. [deprecated]
+copyResources
+decompileJar
+dependentComponents - Displays the dependent components of components in root project 'paper'. [deprecated]
+paper-api:dependentComponents - Displays the dependent components of components in project ':paper-api'. [deprecated]
+paper-mojangapi:dependentComponents - Displays the dependent components of components in project ':paper-mojangapi'. [deprecated]
+paper-server:dependentComponents - Displays the dependent components of components in project ':paper-server'. [deprecated]
+test-plugin:dependentComponents - Displays the dependent components of components in project ':test-plugin'. [deprecated]
+downloadMappings
+downloadMcLibrariesSources
+downloadMcManifest
+downloadMcVersionManifest
+downloadServerJar
+downloadSpigotDependencies
+extractFromBundler
+filterSpigotExcludes
+filterVanillaJar
+fixJar
+paper-server:fixJarForReobf
+paper-api:generateApiVersioningFile
+generateMappings
+generateReobfMappings
+generateSpigotMappings
+paper-server:ideaModule - Generates IDEA module files (IML)
+paper-server:includeMappings
+initSubmodules
+lineMapJar
+mergeAdditionalAts
+mergeGeneratedAts
+mergePaperAts
+model - Displays the configuration model of root project 'paper'. [deprecated]
+paper-api:model - Displays the configuration model of project ':paper-api'. [deprecated]
+paper-mojangapi:model - Displays the configuration model of project ':paper-mojangapi'. [deprecated]
+paper-server:model - Displays the configuration model of project ':paper-server'. [deprecated]
+test-plugin:model - Displays the configuration model of project ':test-plugin'. [deprecated]
+paperclipForDevBundle
+patchCraftBukkit
+patchCraftBukkitPatches
+patchMappings
+patchReobfMappings
+patchSpigot
+patchSpigotApi
+patchSpigotApiPatches
+patchSpigotServer
+patchSpigotServerPatches
+prepareForDownstream
+prepareKotlinBuildScriptModel
+printMinecraftVersion
+printPaperVersion
+paper-server:processLog4jPluginsResources - Processes log4j plugins resources.
+processResources - Processes main resources.
+paper-api:processResources - Processes main resources.
+paper-mojangapi:processResources - Processes main resources.
+paper-server:processResources - Processes main resources.
+test-plugin:processResources - Processes main resources.
+processTestResources - Processes test resources.
+paper-api:processTestResources - Processes test resources.
+paper-mojangapi:processTestResources - Processes test resources.
+paper-server:processTestResources - Processes test resources.
+test-plugin:processTestResources - Processes test resources.
+remapGeneratedAt
+remapJar
+remapSpigotAt
+remapSpigotSources
+paper-api:scanJarForBadCalls
+paper-mojangapi:scanJarForBadCalls
+paper-server:scanJarForBadCalls
+serverBundlerForDevBundle
+spigotDecompileJar
+spigotRemapJar
+
+Rules
+-----
+Pattern: clean<TaskName>: Cleans the output files of a task.
+Pattern: build<ConfigurationName>: Assembles the artifacts of a configuration.
+
+BUILD SUCCESSFUL in 576ms
+1 actionable task: 1 executed
